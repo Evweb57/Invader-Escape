@@ -1081,6 +1081,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Game Stage
       objectReference: {fileID: 0}
+    - target: {fileID: 7300549821851586190, guid: 5ea3c3db58c13d649aade2aa206ef1cb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.4
+      objectReference: {fileID: 0}
     - target: {fileID: 8946280916376776984, guid: 5ea3c3db58c13d649aade2aa206ef1cb, type: 3}
       propertyPath: m_RootOrder
       value: 3
