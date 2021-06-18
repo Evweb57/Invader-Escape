@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 6810047107613337654}
   - component: {fileID: 601798613}
   - component: {fileID: -749931786447563697}
+  - component: {fileID: 51276404}
   m_Layer: 0
   m_Name: Space Ship
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -161,6 +162,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &51276404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5875704402691138713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 315624f02f81ae74594abafad47db172, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6408422005721423763
 GameObject:
   m_ObjectHideFlags: 0
