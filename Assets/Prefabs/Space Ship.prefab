@@ -66,6 +66,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainThrust: 1000
   rotationThrust: 100
+  mainEngine: {fileID: 8300000, guid: d2f294ed0449b3646b3af508da0094b5, type: 3}
 --- !u!82 &-749931786447563697
 AudioSource:
   m_ObjectHideFlags: 0
@@ -76,7 +77,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d2f294ed0449b3646b3af508da0094b5, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -175,6 +176,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 1
+  obstacleCrash: {fileID: 8300000, guid: d8af2e5ce97a9b64b83ce3ae5e105158, type: 3}
+  landingSuccess: {fileID: 8300000, guid: 9752d696fc9acd4468a8fe0e69a2e787, type: 3}
 --- !u!1 &6408422005721423763
 GameObject:
   m_ObjectHideFlags: 0
