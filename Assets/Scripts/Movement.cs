@@ -4,21 +4,19 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    // Rigidbody is a member variable / global scope
-    Rigidbody rb;
-    AudioSource audioSource;
     [SerializeField] float mainThrust = 1000f;
     [SerializeField] float rotationThrust = 100f;
+    [SerializeField] AudioClip mainEngine;
 
-    // Start is called before the first frame update
+    Rigidbody rb;
+    AudioSource audioSource;
+
     void Start()
     {
-        // this is caching a reference to our component
         rb = GetComponent<Rigidbody>();
         audioSource = GetComponent<AudioSource>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         ProcessThrust();
@@ -32,7 +30,7 @@ public class Movement : MonoBehaviour
             rb.AddRelativeForce(Vector3.up * mainThrust * Time.deltaTime);
             if (!audioSource.isPlaying)
             {
-                audioSource.Play();
+                audioSource.PlayOneShot(mainEngine);
             }
         }
         else
@@ -53,10 +51,10 @@ public class Movement : MonoBehaviour
         }
     }
 
-    private void ApplyRotation(float rotationThisFrame)
+    void ApplyRotation(float rotationThisFrame)
     {
-        rb.freezeRotation = true; // freezing rotation so we can manually rotate
+        rb.freezeRotation = true;
         transform.Rotate(Vector3.forward * rotationThisFrame * Time.deltaTime);
-        rb.freezeRotation = false; // unfreeze for physics engine rotation
+        rb.freezeRotation = false;
     }
 }

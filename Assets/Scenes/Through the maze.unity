@@ -991,10 +991,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 51276404, guid: 091dde1d83009734ea7dc827bda20330, type: 3}
-      propertyPath: delay
-      value: 1
+    - target: {fileID: -749931786447563697, guid: 091dde1d83009734ea7dc827bda20330, type: 3}
+      propertyPath: m_audioClip
+      value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 601798613, guid: 091dde1d83009734ea7dc827bda20330, type: 3}
+      propertyPath: mainEngine
+      value: 
+      objectReference: {fileID: 8300000, guid: d2f294ed0449b3646b3af508da0094b5, type: 3}
     - target: {fileID: 5152810564746906562, guid: 091dde1d83009734ea7dc827bda20330, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -1043,10 +1047,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Space Ship
       objectReference: {fileID: 0}
-    - target: {fileID: 5875704402691138713, guid: 091dde1d83009734ea7dc827bda20330, type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 091dde1d83009734ea7dc827bda20330, type: 3}
 --- !u!1001 &5423103811504112073
@@ -1056,25 +1056,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1293271039700059296, guid: 5ea3c3db58c13d649aade2aa206ef1cb, type: 3}
-      propertyPath: m_TagString
-      value: Finish
-      objectReference: {fileID: 0}
-    - target: {fileID: 2008235191256260516, guid: 5ea3c3db58c13d649aade2aa206ef1cb, type: 3}
-      propertyPath: m_TagString
-      value: Friendly
-      objectReference: {fileID: 0}
     - target: {fileID: 7220137748881086999, guid: 5ea3c3db58c13d649aade2aa206ef1cb, type: 3}
       propertyPath: m_Name
       value: Game Stage
-      objectReference: {fileID: 0}
-    - target: {fileID: 7300549821851586190, guid: 5ea3c3db58c13d649aade2aa206ef1cb, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 8033563079652054410, guid: 5ea3c3db58c13d649aade2aa206ef1cb, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.1
       objectReference: {fileID: 0}
     - target: {fileID: 8946280916376776984, guid: 5ea3c3db58c13d649aade2aa206ef1cb, type: 3}
       propertyPath: m_RootOrder
