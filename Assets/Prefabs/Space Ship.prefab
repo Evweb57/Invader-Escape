@@ -1064,6 +1064,7 @@ MonoBehaviour:
   mainThrust: 1000
   rotationThrust: 100
   mainEngine: {fileID: 8300000, guid: d2f294ed0449b3646b3af508da0094b5, type: 3}
+  rotationEngine: {fileID: 8300000, guid: d2f294ed0449b3646b3af508da0094b5, type: 3}
   mainBooster: {fileID: 4567219462385478681}
   leftBooster: {fileID: 1254342788171177923}
   rightBooster: {fileID: 9167439518371460942}
